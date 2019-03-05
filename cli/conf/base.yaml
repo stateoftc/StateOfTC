@@ -1,0 +1,13 @@
+elastic:
+  host:  localhost
+  port:  9200
+  log:   warning
+  indices:
+    norm: soj_normalized
+    raw: soj_raw
+
+typeform:
+  token: EjgEahVHbf3ttJhHJuAFJVAnNAbUipmfquAUDCijz6Ly
+
+currentSurvey: '2018'
+dataOutputDir: ../surveys/2018/website/src/data/results

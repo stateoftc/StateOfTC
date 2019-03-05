@@ -1,0 +1,97 @@
+#
+# Please be aware that modifying the section ids
+# here has an impact on the data pipeline as
+# those ids must be updated too.
+# The same goes for tools.
+#
+- id: home
+  hide: true
+
+- id: introduction
+
+- id: demographics
+
+- id: connections
+
+- id: javascript-flavors
+  children:
+      - overview
+      - es6
+      - typescript
+      - flow
+      - reason
+      - elm
+      - clojurescript
+      - other-libraries
+      - conclusion
+
+- id: front-end-frameworks
+  children:
+      - overview
+      - react
+      - vuejs
+      - angular
+      - preact
+      - ember
+      - polymer
+      - other-libraries
+      - conclusion
+
+- id: data-layer
+  children:
+      - overview
+      - redux
+      - graphql
+      - apollo
+      - mobx
+      - relay
+      - other-libraries
+      - conclusion
+
+- id: back-end-frameworks
+  children:
+      - overview
+      - express
+      - nextjs
+      - koa
+      - meteor
+      - sails
+      - feathers
+      - other-libraries
+      - conclusion
+
+- id: testing
+  children:
+      - overview
+      - jest
+      - mocha
+      - jasmine
+      - enzyme
+      - karma
+      - storybook
+      - ava
+      - other-libraries
+      - conclusion
+
+- id: mobile-and-desktop
+  children:
+      - overview
+      - electron
+      - react-native
+      - native-apps
+      - phonegap-cordova
+      - ionic
+      - nativescript
+      - other-libraries
+      - conclusion
+
+- id: other-tools
+
+- id: opinions
+
+- id: awards
+
+- id: conclusion
+
+- id: support
+  hide: true

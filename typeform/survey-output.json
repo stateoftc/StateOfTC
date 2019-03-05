@@ -1,0 +1,3715 @@
+{
+  "title": "State of CSS 2018",
+  "theme": {
+    "href": "https://api.typeform.com/themes/jHo1tn"
+  },
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/KHZnSk"
+  },
+  "settings": {
+    "is_public": false,
+    "is_trial": true,
+    "language": "en",
+    "progress_bar": "percentage",
+    "show_progress_bar": true,
+    "show_typeform_branding": true,
+    "meta": {
+      "allow_indexing": true,
+      "description": "The annual survey about the current State of CSS",
+      "image": {
+        "href": "https://images.typeform.com/images/z49hZMjx6tBr"
+      }
+    }
+  },
+  "welcome_screens": [
+    {
+      "title": "Thanks for taking this survey! Together, maybe we'll be able to figure out this CSS thing once and for all!\n\nAlso, we know this survey seems long, but it's mostly the same questions repeated for different frameworks and libraries. Most people only take around *10 minutes* to fill it in.",
+      "properties": {
+        "show_button": true,
+        "button_text": "Let's Get This Started"
+      },
+      "attachment": {
+        "type": "image",
+        "href": "https://images.typeform.com/images/zV6rWABByCzN"
+      }
+    }
+  ],
+  "thankyou_screens": [
+    {
+      "title": "Thanks for completing this typeform\nNow *create your own* — it's free, easy, & beautiful",
+      "properties": {
+        "show_button": true,
+        "share_icons": false,
+        "button_mode": "redirect",
+        "button_text": "Create a *typeform*",
+        "redirect_url": "https://admin.typeform.com/powered-by?utm_campaign=S5iLk9&utm_source=typeform.com-4189488-Basic&utm_medium=typeform&utm_content=typeform-thankyoubutton&utm_term=EN"
+      },
+      "attachment": {
+        "type": "image",
+        "href": "https://images.typeform.com/images/2dpnUBBkz2VN"
+      }
+    }
+  ],
+  "fields": [
+    {
+      "title": "*How this survey works\n\n*For each technology, framework, or library mentioned, please pick one of the following options:\n\n- 🤷 You've never heard about it, or are not sure what it is\n- ✅ You've heard about it and you *want* to learn it\n- 🚫 You've heard about it, but *don't want* to learn it (or are *unsure*)\n- 👍 You've used it and *want* to use it again\n- 👎 You've used it but *don't* *want* to use it again",
+      "properties": {
+        "hide_marks": true
+      },
+      "type": "statement"
+    },
+    {
+      "title": "Pre-/Post-processors",
+      "ref": "preprocessors_section",
+      "properties": {
+        "description": "Utilities that augment CSS.",
+        "fields": [
+          {
+            "title": "SASS",
+            "ref": "sass",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "sass_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "sass_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "sass_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "sass_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "sass_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "LESS",
+            "ref": "less",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "less_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "less_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "less_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "less_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "less_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "PostCSS",
+            "ref": "postcss",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "postcss_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "postcss_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "postcss_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "postcss_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "postcss_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Stylus",
+            "ref": "stylus",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "stylus_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "stylus_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "stylus_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "stylus_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "stylus_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Other pre-/post-processors options",
+            "ref": "pre/postprocessors_other",
+            "validations": {
+              "required": false
+            },
+            "type": "long_text"
+          },
+          {
+            "title": "On a scale of one to five, how happy are you with available pre-/post-processors options?",
+            "ref": "pre/postprocessors_rating",
+            "properties": {
+              "steps": 5
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "rating"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "CSS Frameworks",
+      "ref": "frameworks_section",
+      "properties": {
+        "description": "Libraries that give you pre-made components and styles.",
+        "fields": [
+          {
+            "title": "Bootstrap",
+            "ref": "bootstrap",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "bootstrap_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "bootstrap_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "bootstrap_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "bootstrap_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "bootstrap_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Material Design",
+            "ref": "materialdesign",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "materialdesign_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "materialdesign_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "materialdesign_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "materialdesign_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "materialdesign_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Ant Design",
+            "ref": "antdesign",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "antdesign_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "antdesign_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "antdesign_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "antdesign_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "antdesign_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Semantic UI",
+            "ref": "semanticui",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "semanticui_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "semanticui_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "semanticui_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "semanticui_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "semanticui_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Bulma",
+            "ref": "bulma",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "bulma_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "bulma_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "bulma_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "bulma_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "bulma_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Foundation",
+            "ref": "foundation",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "foundation_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "foundation_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "foundation_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "foundation_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "foundation_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "UIKit",
+            "ref": "uikit",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "uikit_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "uikit_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "uikit_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "uikit_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "uikit_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Tachyons",
+            "ref": "tachyons",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "tachyons_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "tachyons_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "tachyons_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "tachyons_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "tachyons_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "PrimerCSS",
+            "ref": "primercss",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "primercss_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "primercss_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "primercss_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "primercss_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "primercss_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Tailwind",
+            "ref": "tailwind",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "tailwind_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "tailwind_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "tailwind_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "tailwind_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "tailwind_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "PureCSS",
+            "ref": "purecss",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "purecss_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "purecss_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "purecss_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "purecss_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "purecss_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Milligram",
+            "ref": "milligram",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "milligram_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "milligram_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "milligram_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "milligram_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "milligram_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "BassCSS",
+            "ref": "basscss",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "basscss_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "basscss_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "basscss_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "basscss_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "basscss_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Other CSS frameworks options",
+            "ref": "cssframeworks_other",
+            "validations": {
+              "required": false
+            },
+            "type": "long_text"
+          },
+          {
+            "title": "On a scale of one to five, how happy are you with available CSS frameworks options?",
+            "ref": "cssframeworks_rating",
+            "properties": {
+              "steps": 5
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "rating"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "CSS-in-JS",
+      "ref": "cssinjs_section",
+      "properties": {
+        "description": "Libraries that give you pre-made components and styles.",
+        "fields": [
+          {
+            "title": "Styled Components",
+            "ref": "styledcomponents",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "styledcomponents_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "styledcomponents_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "styledcomponents_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "styledcomponents_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "styledcomponents_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Glamor",
+            "ref": "glamor",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "glamor_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "glamor_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "glamor_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "glamor_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "glamor_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Aphrodite",
+            "ref": "aphrodite",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "aphrodite_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "aphrodite_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "aphrodite_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "aphrodite_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "aphrodite_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "JSS",
+            "ref": "jss",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "jss_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "jss_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "jss_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "jss_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "jss_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Styled-JSX",
+            "ref": "styledjsx",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "styledjsx_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "styledjsx_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "styledjsx_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "styledjsx_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "styledjsx_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Radium",
+            "ref": "radium",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "radium_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "radium_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "radium_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "radium_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "radium_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Emotion",
+            "ref": "emotion",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "emotion_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "emotion_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "emotion_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "emotion_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "emotion_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Other CSS-in-JS options",
+            "ref": "cssinjs_other",
+            "validations": {
+              "required": false
+            },
+            "type": "long_text"
+          },
+          {
+            "title": "On a scale of one to five, how happy are you with available CSS-in-JS options?",
+            "ref": "cssinjs_rating",
+            "properties": {
+              "steps": 5
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "rating"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Methodologies",
+      "ref": "methodologies_section",
+      "properties": {
+        "description": "Codified ways to write cleaner CSS.",
+        "fields": [
+          {
+            "title": "BEM",
+            "ref": "bem",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "bem_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "bem_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "bem_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "bem_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "bem_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Atomic CSS",
+            "ref": "atomiccss",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "atomiccss_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "atomiccss_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "atomiccss_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "atomiccss_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "atomiccss_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "OOCSS",
+            "ref": "oocss",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "oocss_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "oocss_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "oocss_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "oocss_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "oocss_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "SMACSS",
+            "ref": "smacss",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "smacss_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "smacss_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "smacss_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "smacss_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "smacss_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "IT CSS",
+            "ref": "itcss",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "itcss_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "itcss_interested",
+                  "label": "✅ Heard of it > Would like to learn"
+                },
+                {
+                  "ref": "itcss_not_interested",
+                  "label": "🚫 Heard of it > Not interested"
+                },
+                {
+                  "ref": "itcss_would_use_again",
+                  "label": "👍 Used it > Would use again"
+                },
+                {
+                  "ref": "itcss_would_not_use_again",
+                  "label": "👎 Used it > Would avoid"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Other methodologies options",
+            "ref": "methodologies_other",
+            "validations": {
+              "required": false
+            },
+            "type": "long_text"
+          },
+          {
+            "title": "On a scale of one to five, how happy are you with available methodologies options?",
+            "ref": "methodologies_rating",
+            "properties": {
+              "steps": 5
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "rating"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Other Tools",
+      "ref": "othertools_section",
+      "properties": {
+        "description": "For these tools & technologies, just check the ones that you use regularly.",
+        "fields": [
+          {
+            "title": "Text Editors",
+            "ref": "texteditors",
+            "properties": {
+              "randomize": true,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "VS Code"
+                },
+                {
+                  "label": "Sublime Text"
+                },
+                {
+                  "label": "Atom"
+                },
+                {
+                  "label": "Vim"
+                },
+                {
+                  "label": "Emacs"
+                },
+                {
+                  "label": "Webstorm"
+                }
+              ],
+              "description": "Which text editor(s) do you regularly use?"
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Layout",
+      "ref": "layout_section",
+      "properties": {
+        "description": "How do you position elements on the screen?",
+        "fields": [
+          {
+            "title": "CSS Grid",
+            "ref": "cssgrid",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "cssgrid_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "cssgrid_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "cssgrid_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "cssgrid_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "cssgrid_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Flexbox",
+            "ref": "flexbox",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "flexbox_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "flexbox_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "flexbox_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "flexbox_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "flexbox_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Floats (for layout)",
+            "ref": "floats(forlayout)",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "floats(forlayout)_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "floats(forlayout)_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "floats(forlayout)_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "floats(forlayout)_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "floats(forlayout)_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Tables (for layout)",
+            "ref": "tables(forlayout)",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "tables(forlayout)_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "tables(forlayout)_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "tables(forlayout)_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "tables(forlayout)_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "tables(forlayout)_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "CSS Multi-Column",
+            "ref": "cssmulticolumn",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "cssmulticolumn_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "cssmulticolumn_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "cssmulticolumn_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "cssmulticolumn_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "cssmulticolumn_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "CSS Writing Modes",
+            "ref": "csswritingmodes",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "csswritingmodes_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "csswritingmodes_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "csswritingmodes_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "csswritingmodes_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "csswritingmodes_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Shapes & Graphics",
+      "ref": "shapes&graphics_section",
+      "properties": {
+        "description": "Controlling the shape and display of elements.",
+        "fields": [
+          {
+            "title": "CSS Shapes",
+            "ref": "cssshapes",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "cssshapes_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "cssshapes_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "cssshapes_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "cssshapes_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "cssshapes_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Object-fit",
+            "ref": "objectfit",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "objectfit_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "objectfit_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "objectfit_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "objectfit_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "objectfit_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Clip-path",
+            "ref": "clippath",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "clippath_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "clippath_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "clippath_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "clippath_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "clippath_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "CSS Masks",
+            "ref": "cssmasks",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "cssmasks_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "cssmasks_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "cssmasks_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "cssmasks_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "cssmasks_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Blend Modes",
+            "ref": "blendmodes",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "blendmodes_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "blendmodes_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "blendmodes_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "blendmodes_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "blendmodes_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "CSS Filter Effects",
+            "ref": "cssfiltereffects",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "cssfiltereffects_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "cssfiltereffects_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "cssfiltereffects_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "cssfiltereffects_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "cssfiltereffects_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Interactions",
+      "ref": "interactions_section",
+      "properties": {
+        "description": "Controlling how the user interacts with the page.",
+        "fields": [
+          {
+            "title": "CSS Scroll Snap",
+            "ref": "cssscrollsnap",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "cssscrollsnap_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "cssscrollsnap_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "cssscrollsnap_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "cssscrollsnap_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "cssscrollsnap_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Overscroll-behavior",
+            "ref": "overscrollbehavior",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "overscrollbehavior_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "overscrollbehavior_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "overscrollbehavior_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "overscrollbehavior_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "overscrollbehavior_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Overflow-anchor",
+            "ref": "overflowanchor",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "overflowanchor_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "overflowanchor_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "overflowanchor_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "overflowanchor_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "overflowanchor_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Typography",
+      "ref": "typography_section",
+      "properties": {
+        "description": "Setting and laying out text.",
+        "fields": [
+          {
+            "title": "Web fonts (@font-face)",
+            "ref": "webfonts(@fontface)",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "webfonts(@fontface)_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "webfonts(@fontface)_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "webfonts(@fontface)_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "webfonts(@fontface)_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "webfonts(@fontface)_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Variable fonts",
+            "ref": "variablefonts",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "variablefonts_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "variablefonts_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "variablefonts_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "variablefonts_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "variablefonts_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Line breaking control",
+            "ref": "linebreakingcontrol",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "linebreakingcontrol_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "linebreakingcontrol_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "linebreakingcontrol_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "linebreakingcontrol_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "linebreakingcontrol_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Font-variant-*",
+            "ref": "fontvariant*",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "fontvariant*_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "fontvariant*_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "fontvariant*_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "fontvariant*_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "fontvariant*_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Initial-letter",
+            "ref": "initialletter",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "initialletter_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "initialletter_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "initialletter_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "initialletter_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "initialletter_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Animations & Transforms",
+      "ref": "animations&transforms_section",
+      "properties": {
+        "description": "Animating and transforming elements.",
+        "fields": [
+          {
+            "title": "CSS Transitions",
+            "ref": "csstransitions",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "csstransitions_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "csstransitions_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "csstransitions_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "csstransitions_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "csstransitions_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "CSS Transforms",
+            "ref": "csstransforms",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "csstransforms_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "csstransforms_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "csstransforms_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "csstransforms_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "csstransforms_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "CSS Animations",
+            "ref": "cssanimations",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "cssanimations_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "cssanimations_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "cssanimations_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "cssanimations_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "cssanimations_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Units (fonts)",
+      "ref": "units(fonts)_section",
+      "properties": {
+        "description": "Units for sizing text",
+        "fields": [
+          {
+            "title": "px",
+            "ref": "px",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "px_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "px_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "px_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "px_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "px_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "%",
+            "ref": "%",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "%_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "%_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "%_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "%_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "%_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "em",
+            "ref": "em",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "em_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "em_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "em_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "em_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "em_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "rem",
+            "ref": "rem",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "rem_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "rem_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "rem_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "rem_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "rem_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "vh, vw",
+            "ref": "vh,vw",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "vh,vw_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "vh,vw_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "vh,vw_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "vh,vw_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "vh,vw_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "vmin, vmax",
+            "ref": "vmin,vmax",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "vmin,vmax_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "vmin,vmax_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "vmin,vmax_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "vmin,vmax_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "vmin,vmax_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "ch",
+            "ref": "ch",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "ch_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "ch_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "ch_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "ch_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "ch_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "ex",
+            "ref": "ex",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "ex_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "ex_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "ex_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "ex_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "ex_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "pt",
+            "ref": "pt",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "pt_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "pt_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "pt_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "pt_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "pt_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Units (elements)",
+      "ref": "units(elements)_section",
+      "properties": {
+        "description": "Units for sizing and positioning non-text elements",
+        "fields": [
+          {
+            "title": "px",
+            "ref": "px",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "px_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "px_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "px_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "px_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "px_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "%",
+            "ref": "%",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "%_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "%_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "%_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "%_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "%_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "em",
+            "ref": "em",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "em_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "em_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "em_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "em_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "em_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "rem",
+            "ref": "rem",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "rem_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "rem_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "rem_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "rem_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "rem_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "vh, vw",
+            "ref": "vh,vw",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "vh,vw_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "vh,vw_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "vh,vw_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "vh,vw_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "vh,vw_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "vmin, vmax",
+            "ref": "vmin,vmax",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "vmin,vmax_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "vmin,vmax_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "vmin,vmax_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "vmin,vmax_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "vmin,vmax_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "ch",
+            "ref": "ch",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "ch_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "ch_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "ch_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "ch_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "ch_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "ex",
+            "ref": "ex",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "ex_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "ex_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "ex_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "ex_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "ex_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "pt",
+            "ref": "pt",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "pt_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "pt_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "pt_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "pt_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "pt_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Other Features",
+      "ref": "otherfeatures_section",
+      "properties": {
+        "description": "Other CSS features.",
+        "fields": [
+          {
+            "title": "CSS Variables",
+            "ref": "cssvariables",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "cssvariables_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "cssvariables_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "cssvariables_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "cssvariables_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "cssvariables_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Feature Support Queries",
+            "ref": "featuresupportqueries",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "featuresupportqueries_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "featuresupportqueries_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "featuresupportqueries_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "featuresupportqueries_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "featuresupportqueries_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "CSS Containment",
+            "ref": "csscontainment",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "csscontainment_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "csscontainment_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "csscontainment_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "csscontainment_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "csscontainment_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Will-change",
+            "ref": "willchange",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "willchange_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "willchange_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "willchange_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "willchange_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "willchange_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "calc()",
+            "ref": "calc()",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "calc()_neverheard",
+                  "label": "Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "calc()_heard",
+                  "label": "Heard of it but haven't used it"
+                },
+                {
+                  "ref": "calc()_experimented",
+                  "label": "I've experimented with it"
+                },
+                {
+                  "ref": "calc()_used_in_production",
+                  "label": "I've used it in production"
+                },
+                {
+                  "ref": "calc()_would_not_use_again",
+                  "label": "I would rather not use it again"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Selectors",
+      "ref": "selectors_section",
+      "properties": {
+        "description": "Which of these CSS selectors do you know about?",
+        "fields": [
+          {
+            "title": "Selectors",
+            "ref": "selectors",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": ":not"
+                },
+                {
+                  "label": ":where"
+                },
+                {
+                  "label": "etc."
+                },
+                {
+                  "label": "TODO"
+                }
+              ],
+              "description": "Which of these CSS selectors do you know about?"
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Coding Patterns",
+      "ref": "codingpatterns_section",
+      "properties": {
+        "description": "How you write your CSS",
+        "fields": [
+          {
+            "title": "Selector Nesting",
+            "ref": "selectornesting",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Selector nesting should never be used"
+                },
+                {
+                  "label": "Selector nesting should be avoided if possible"
+                },
+                {
+                  "label": "Selector nesting is fine to use"
+                },
+                {
+                  "label": "Selector nesting should be encouraged"
+                }
+              ],
+              "description": "How often do you use selector nesting? (.foo .bar ul li {...})"
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Naming",
+            "ref": "naming",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": "ALLOWOTHER",
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": ".my-class"
+                },
+                {
+                  "label": ".my_class"
+                },
+                {
+                  "label": ".MyClass"
+                },
+                {
+                  "label": ".myClass"
+                }
+              ],
+              "description": "What pattern do you follow for naming classes?"
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "idss",
+            "ref": "ids",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": "ALLOWOTHER",
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "ID selectors should never be used"
+                },
+                {
+                  "label": "ID selectors should be avoided if possible"
+                },
+                {
+                  "label": "ID selectors are fine to use"
+                },
+                {
+                  "label": "ID selectors use should be encouraged"
+                }
+              ],
+              "description": "How often do you use ID selectors (#myDiv)?"
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": null,
+            "ref": null,
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": "ALLOWOTHER",
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": null
+                },
+                {
+                  "label": null
+                },
+                {
+                  "label": null
+                },
+                {
+                  "label": null
+                }
+              ],
+              "description": "How often do you use !important?"
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Environments",
+      "ref": "environments_section",
+      "properties": {
+        "description": "Which environments do you write CSS for?",
+        "fields": [
+          {
+            "title": "Browsers",
+            "ref": "browsers",
+            "properties": {
+              "randomize": true,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Edge"
+                },
+                {
+                  "label": "Chrome"
+                },
+                {
+                  "label": "Safari"
+                },
+                {
+                  "label": "Firefox"
+                },
+                {
+                  "label": "Internet Explorer 8/9/10/11"
+                },
+                {
+                  "label": "Opera Mini"
+                }
+              ],
+              "description": "Which desktop browsers do you test in?"
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Mobile Platforms",
+            "ref": "mobileplatforms",
+            "properties": {
+              "randomize": true,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "iPhone"
+                },
+                {
+                  "label": "iPad"
+                },
+                {
+                  "label": "Android"
+                }
+              ],
+              "description": "Which mobile platforms do you test on?"
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Print Stylesheets",
+            "ref": "printstylesheets",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "I never write print styles"
+                },
+                {
+                  "label": "I ocasionally write print styles"
+                },
+                {
+                  "label": "I add print styles to most of my projects"
+                },
+                {
+                  "label": "I use CSS for print-only projects"
+                }
+              ],
+              "description": "Do you write print stylesheets?"
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Email Clients",
+            "ref": "emailclients",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "I never write CSS for emails"
+                },
+                {
+                  "label": "I ocasionally write CSS for emails"
+                },
+                {
+                  "label": "I write CSS for emails for most of my projects"
+                },
+                {
+                  "label": "I write CSS for email-only projects"
+                }
+              ],
+              "description": "Do you write CSS for email clients?"
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Resources",
+      "ref": "resources_section",
+      "properties": {
+        "description": "What CSS resources do you consult?",
+        "fields": [
+          {
+            "title": "Sites",
+            "ref": "sites",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "CSS Tricks"
+                },
+                {
+                  "label": "Smashing Magazine"
+                },
+                {
+                  "label": "A List Apart"
+                },
+                {
+                  "label": "CoDrops"
+                },
+                {
+                  "label": "SitePoint"
+                },
+                {
+                  "label": "Stack Overflow"
+                },
+                {
+                  "label": "MDN"
+                },
+                {
+                  "label": "W3Schools"
+                },
+                {
+                  "label": "The CSS Spec"
+                }
+              ],
+              "description": "Which CSS-related blogs/magazines/etc. do you read?"
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Podcasts",
+            "ref": "podcasts",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Shop Talk Show"
+                },
+                {
+                  "label": "Style Guide Podcast"
+                },
+                {
+                  "label": "The Big Web Show"
+                },
+                {
+                  "label": "The Web Ahead"
+                },
+                {
+                  "label": "Non Breaking Space Show"
+                },
+                {
+                  "label": "The Changelog"
+                }
+              ],
+              "description": "Which CSS or programming-related podcasts do you listen to?"
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Opinion Questions",
+      "ref": "opinionquestions_section",
+      "properties": {
+        "description": "How do you feel about the state of CSS?",
+        "fields": [
+          {
+            "title": "CSS is easy to learn",
+            "ref": "cssiseasytolearn",
+            "properties": {
+              "steps": 5,
+              "start_at_one": false,
+              "labels": {
+                "left": "Disagree",
+                "center": "Neutral",
+                "right": "Agree"
+              }
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "opinion_scale"
+          },
+          {
+            "title": "CSS is evolving too slowly",
+            "ref": "cssisevolvingtooslowly",
+            "properties": {
+              "steps": 5,
+              "start_at_one": false,
+              "labels": {
+                "left": "Disagree",
+                "center": "Neutral",
+                "right": "Agree"
+              }
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "opinion_scale"
+          },
+          {
+            "title": "Non-semantic classes (.center, .large-text, etc.) should be avoided",
+            "ref": "nonsemanticclasses(.center,.largetext,etc.)shouldbeavoided",
+            "properties": {
+              "steps": 5,
+              "start_at_one": false,
+              "labels": {
+                "left": "Disagree",
+                "center": "Neutral",
+                "right": "Agree"
+              }
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "opinion_scale"
+          },
+          {
+            "title": "Selector nesting (.foo .bar ul li {...}) should be avoided",
+            "ref": "selectornesting(.foo.barulli{...})shouldbeavoided",
+            "properties": {
+              "steps": 5,
+              "start_at_one": false,
+              "labels": {
+                "left": "Disagree",
+                "center": "Neutral",
+                "right": "Agree"
+              }
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "opinion_scale"
+          },
+          {
+            "title": "CSS is a programming language",
+            "ref": "cssisaprogramminglanguage",
+            "properties": {
+              "steps": 5,
+              "start_at_one": false,
+              "labels": {
+                "left": "Disagree",
+                "center": "Neutral",
+                "right": "Agree"
+              }
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "opinion_scale"
+          },
+          {
+            "title": "I enjoy writing CSS",
+            "ref": "ienjoywritingcss",
+            "properties": {
+              "steps": 5,
+              "start_at_one": false,
+              "labels": {
+                "left": "Disagree",
+                "center": "Neutral",
+                "right": "Agree"
+              }
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "opinion_scale"
+          },
+          {
+            "title": "CSS is moving in the right direction",
+            "ref": "cssismovingintherightdirection",
+            "properties": {
+              "steps": 5,
+              "start_at_one": false,
+              "labels": {
+                "left": "Disagree",
+                "center": "Neutral",
+                "right": "Agree"
+              }
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "opinion_scale"
+          },
+          {
+            "title": "What do you feel is currently missing from CSS?",
+            "ref": "whatdoyoufeeliscurrentlymissingfromcss?",
+            "properties": {
+              "description": "Features you'd like to see in CSS one day."
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "long_text"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "About You",
+      "ref": "aboutyou_section",
+      "properties": {
+        "description": "Let's get to know the real you.",
+        "fields": [
+          {
+            "title": "Years of Experience",
+            "ref": "yearsofexperience",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Less than one year"
+                },
+                {
+                  "label": "1-2 years"
+                },
+                {
+                  "label": "2-5 years"
+                },
+                {
+                  "label": "5-10 years"
+                },
+                {
+                  "label": "10-20 years"
+                },
+                {
+                  "label": "20+ years"
+                }
+              ],
+              "description": "How long you've been writing CSS."
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Job Title",
+            "ref": "jobtitle",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Front-end Developer"
+                },
+                {
+                  "label": "Full-stack Developer"
+                },
+                {
+                  "label": "Back-end Developer"
+                },
+                {
+                  "label": "Designer"
+                }
+              ],
+              "description": "How do you introduce yourself at parties?"
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Company Size",
+            "ref": "companysize",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Just me"
+                },
+                {
+                  "label": "1-5 people"
+                },
+                {
+                  "label": "5-10 people"
+                },
+                {
+                  "label": "10-20 people"
+                },
+                {
+                  "label": "20-50 people"
+                },
+                {
+                  "label": "50-100 people"
+                },
+                {
+                  "label": "100-1000 people"
+                },
+                {
+                  "label": "1000+ people"
+                }
+              ]
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Yearly Salary",
+            "ref": "yearlysalary",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "I work for free :("
+                },
+                {
+                  "label": "$0-$10k"
+                },
+                {
+                  "label": "$10k-$30k"
+                },
+                {
+                  "label": "$30k-$50k"
+                },
+                {
+                  "label": "$50k-$100k"
+                },
+                {
+                  "label": "$100k-$200k"
+                },
+                {
+                  "label": "$200k+"
+                }
+              ],
+              "description": "In USD"
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "How did you find out about this survey?",
+            "ref": "howdidyoufindoutaboutthissurvey?",
+            "properties": {},
+            "validations": {
+              "required": false
+            },
+            "type": "short_text"
+          },
+          {
+            "title": "Your Gender",
+            "ref": "yourgender",
+            "properties": {
+              "randomize": "RANDOMIZE",
+              "allow_multiple_selection": false,
+              "allow_other_choice": "ALLOWOTHER",
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Female"
+                },
+                {
+                  "label": "Male"
+                },
+                {
+                  "label": "Non-binary/ third gender"
+                },
+                {
+                  "label": "Prefer not to say"
+                }
+              ]
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Your Email",
+            "ref": "youremail",
+            "properties": {
+              "description": "If you'd like to be notified when survey results are available. Your email won't be used for any other purpose."
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "email"
+          },
+          {
+            "title": "Your Country",
+            "ref": "yourcountry",
+            "properties": {},
+            "validations": {
+              "required": false
+            },
+            "type": "short_text"
+          },
+          {
+            "title": "Your City",
+            "ref": "yourcity",
+            "properties": {},
+            "validations": {
+              "required": false
+            },
+            "type": "short_text"
+          },
+          {
+            "title": "Other Comments",
+            "ref": "othercomments",
+            "properties": {
+              "description": "Things we missed, feedback on the survey, your favorite color, etc."
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "long_text"
+          }
+        ]
+      },
+      "type": "group"
+    }
+  ],
+  "logic": [],
+  "hidden": [
+    "location",
+    "device",
+    "browser",
+    "version",
+    "os",
+    "city",
+    "gaid",
+    "referrer"
+  ]
+}

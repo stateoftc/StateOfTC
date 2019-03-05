@@ -1,0 +1,25 @@
+- name:   Docforce.io
+  slug:   docfoce
+  avatar: 
+  url:    https://docforce.io/
+  bio: >
+      Docforce is the platform that enables Writing as a Service. 
+      It is an advanced collaborative content creation and consulting 
+      platform designed to bring on-demand professional technical writing services to 
+      companies of any size on a Pay As You Go or Subscription Basis.
+
+# - name:   Sacha Greif
+#   slug:   sacha
+#   avatar: sacha.jpg
+#   url:    http://sachagreif.com
+#   bio: >
+#       Creator of the [Sidebar](http://sidebar.io) daily newsletter and
+#       [VulcanJS](http://vulcanjs.org), a React+GraphQL open-source framework.
+
+# - name:   Michael Rambeau
+#   slug:   michaelr
+#   avatar: https://avatars2.githubusercontent.com/u/488689?v=3&s=400
+#   url:    https://michaelrambeau.com/
+#   bio: >
+#       Creator of [Best of JavaScript](https://bestofjs.org/), a platform
+#       that provides insights and resources about JavaScript libraries.

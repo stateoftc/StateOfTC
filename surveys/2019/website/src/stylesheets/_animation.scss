@@ -1,0 +1,73 @@
+.Home__Wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+.LogoAnimation__Wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    &--simple {
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        position: fixed;
+        pointer-events: none;
+    }
+}
+.LogoAnimation__Inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    @include flex-center;
+}
+.LogoAnimation {
+    // height: 100%;
+    width: 100%;
+}
+.LogoAnimation__Element {
+    &--St,
+    &--At,
+    &--E,
+    &--Of {
+        .PeriodicTableElement_Symbol {
+            fill: $text-color;
+        }
+    }
+    &--Ja,
+    &--Va,
+    &--Sc,
+    &--Ri,
+    &--Pt {
+        .PeriodicTableElement_Symbol {
+            fill: $blue;
+        }
+    }
+    &--20,
+    &--18 {
+        .PeriodicTableElement_Symbol {
+            fill: $red;
+        }
+    }
+}
+
+.LogoAnimation__Button {
+    height: 100%;
+    @include flex-center;
+    @include small {
+        font-size: 1.6rem;
+    }
+    @include medium {
+        font-size: 1.8rem;
+    }
+    @include large {
+        font-size: 2rem;
+    }
+}
+
+.LogoAnimation__Language {
+    color: $text-color;
+    text-align: center;
+}
