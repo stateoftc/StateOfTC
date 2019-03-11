@@ -67,7 +67,7 @@ export default class TakeSurvey extends React.Component {
     }
 
     getSurveyUrl = () => {
-        return `https://jake773.typeform.com/to/R7ROLJ?browser=${this.state.browser}&version=${
+        return `https://docforce.typeform.com/to/EopXcp?browser=${this.state.browser}&version=${
         // return `http://stateofjs.typeform.com/to/TxDuh6?browser=${this.state.browser}&version=${
             this.state.version
         }&os=${this.state.os}&referrer=${this.state.referrer}&device=${this.state.device}&source=${this.state.source}`

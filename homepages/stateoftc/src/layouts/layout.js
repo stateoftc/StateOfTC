@@ -8,7 +8,7 @@ export default class Layout extends React.Component {
     render() {
         const description = 'The annual survey about the latest trends in TC.'
         const url = 'http://stateoftc.com'
-        const image = 'http://stateofcss.com/images/stateofcss_logo.png'
+        const image = 'https://stateoftc.com/images/coverimageTC.png'
         const title = 'The State of TC Survey'
         const meta = [
             { charset: 'utf-8' },

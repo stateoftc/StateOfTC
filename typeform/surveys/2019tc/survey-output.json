@@ -4,7 +4,7 @@
     "href": "https://api.typeform.com/themes/Gp3idU"
   },
   "workspace": {
-    "href": "https://api.typeform.com/workspaces/wJ2SiU"
+    "href": "https://api.typeform.com/workspaces/sSWQsa"
   },
   "settings": {
     "is_public": false,
@@ -17,20 +17,20 @@
       "allow_indexing": true,
       "description": "The annual survey about the current State of Technical communication",
       "image": {
-        "href": "https://images.typeform.com/images/VhGEhQ33EzEE"
+        "href": "https://images.typeform.com/images/M5XY3mC6KDbS"
       }
     }
   },
   "welcome_screens": [
     {
-      "title": "Thanks for taking this survey! Together, maybe we'll be able to figure out this CSS thing once and for all!\n\nAlso, we know this survey seems long, but it's mostly the same questions repeated for different frameworks and libraries. Most people only take around *10 minutes* to fill it in.",
+      "title": "Thanks for taking this survey! Together, maybe we'll be able to figure out this Technical Communication thing once and for all!\n\nAlso, we know this survey seems long, but it's mostly the same questions repeated for different frameworks and libraries. Most people only take around *10 minutes* to fill it in.",
       "properties": {
         "show_button": true,
         "button_text": "Let's Get This Started"
       },
       "attachment": {
         "type": "image",
-        "href": "https://images.typeform.com/images/VhGEhQ33EzEE"
+        "href": "https://images.typeform.com/images/M5XY3mC6KDbS"
       }
     }
   ],
@@ -52,26 +52,26 @@
   ],
   "fields": [
     {
-      "title": "Table Of Contents\n\n1. CSS Features – Grid, Flexbox…\n2. Tools – preprocessors, frameworks…\n3. Environments – Browsers, devices…\n4. Resources – Blogs, podcasts…\n5. Opinions – How you feel about CSS.\n6. About You – Experience, salary…",
+      "title": "Table Of Contents\n\n1. Authoring Language Flavors\n2. Information Gathering\n3. Structure\n4. Content Management Systems\n5. Quality\n6. Authoring Tools\n7. Other Tools - Languages, APIs…",
       "properties": {
         "hide_marks": true
       },
       "type": "statement"
     },
     {
-      "title": "For each of the following CSS feature, please pick one of the following options:\n\n- 🤷 You've never heard about it, or are not sure what it is \n- ✅ You've heard about it but *haven't* used it \n- 👍 You've used it in a project",
+      "title": "For each of the following Technical Communication feature, please pick one of the following options:\n\n- 🤷 You've never heard about it, or are not sure what it is \n- ✅ You've heard about it but *haven't* used it \n- 👍 You've used it in a project",
       "ref": "features_intro",
       "type": "statement"
     },
     {
-      "title": "Layout",
-      "ref": "layout_section",
+      "title": "Authoring Language Flavors",
+      "ref": "authoringlanguageflavors_section",
       "properties": {
-        "description": "How do you position elements on the screen?",
+        "description": "Authoring languages used to complete documentation.",
         "fields": [
           {
-            "title": "CSS Grid",
-            "ref": "layout_cssgrid",
+            "title": "Markdown",
+            "ref": "authoringlanguageflavors_markdown",
             "properties": {
               "randomize": false,
               "allow_multiple_selection": false,
@@ -79,15 +79,15 @@
               "vertical_alignment": true,
               "choices": [
                 {
-                  "ref": "layout_cssgrid_neverheard",
+                  "ref": "authoringlanguageflavors_markdown_neverheard",
                   "label": "🤷 Never heard of it/Not sure what it is"
                 },
                 {
-                  "ref": "layout_cssgrid_heard",
+                  "ref": "authoringlanguageflavors_markdown_heard",
                   "label": "✅ Know what it is, but haven't used it"
                 },
                 {
-                  "ref": "layout_cssgrid_used",
+                  "ref": "authoringlanguageflavors_markdown_used",
                   "label": "👍 I've used it"
                 }
               ]
@@ -98,8 +98,8 @@
             "type": "multiple_choice"
           },
           {
-            "title": "Flexbox",
-            "ref": "layout_flexbox",
+            "title": "Wiki",
+            "ref": "authoringlanguageflavors_wiki",
             "properties": {
               "randomize": false,
               "allow_multiple_selection": false,
@@ -107,15 +107,183 @@
               "vertical_alignment": true,
               "choices": [
                 {
-                  "ref": "layout_flexbox_neverheard",
+                  "ref": "authoringlanguageflavors_wiki_neverheard",
                   "label": "🤷 Never heard of it/Not sure what it is"
                 },
                 {
-                  "ref": "layout_flexbox_heard",
+                  "ref": "authoringlanguageflavors_wiki_heard",
                   "label": "✅ Know what it is, but haven't used it"
                 },
                 {
-                  "ref": "layout_flexbox_used",
+                  "ref": "authoringlanguageflavors_wiki_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "DITA HTML/XML",
+            "ref": "authoringlanguageflavors_ditahtml/xml",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringlanguageflavors_ditahtml/xml_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringlanguageflavors_ditahtml/xml_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringlanguageflavors_ditahtml/xml_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Plain HTML",
+            "ref": "authoringlanguageflavors_plainhtml",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringlanguageflavors_plainhtml_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringlanguageflavors_plainhtml_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringlanguageflavors_plainhtml_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "DocBook XML",
+            "ref": "authoringlanguageflavors_docbookxml",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringlanguageflavors_docbookxml_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringlanguageflavors_docbookxml_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringlanguageflavors_docbookxml_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "LinuxDoc SGML",
+            "ref": "authoringlanguageflavors_linuxdocsgml",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringlanguageflavors_linuxdocsgml_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringlanguageflavors_linuxdocsgml_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringlanguageflavors_linuxdocsgml_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Troff / Psroff",
+            "ref": "authoringlanguageflavors_troff/psroff",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringlanguageflavors_troff/psroff_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringlanguageflavors_troff/psroff_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringlanguageflavors_troff/psroff_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "LaTex",
+            "ref": "authoringlanguageflavors_latex",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringlanguageflavors_latex_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringlanguageflavors_latex_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringlanguageflavors_latex_used",
                   "label": "👍 I've used it"
                 }
               ]
@@ -130,11 +298,1915 @@
       "type": "group"
     },
     {
+      "title": "Information Gathering",
+      "ref": "informationgathering_section",
+      "properties": {
+        "description": "How information is gathered from Subject Matter Experts.",
+        "fields": [
+          {
+            "title": "Meetings",
+            "ref": "informationgathering_meetings",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "informationgathering_meetings_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "informationgathering_meetings_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "informationgathering_meetings_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Written Specs",
+            "ref": "informationgathering_writtenspecs",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "informationgathering_writtenspecs_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "informationgathering_writtenspecs_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "informationgathering_writtenspecs_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Wikis",
+            "ref": "informationgathering_wikis",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "informationgathering_wikis_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "informationgathering_wikis_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "informationgathering_wikis_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Confluence",
+            "ref": "informationgathering_confluence",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "informationgathering_confluence_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "informationgathering_confluence_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "informationgathering_confluence_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Email",
+            "ref": "informationgathering_email",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "informationgathering_email_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "informationgathering_email_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "informationgathering_email_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Preact",
+            "ref": "informationgathering_preact",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "informationgathering_preact_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "informationgathering_preact_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "informationgathering_preact_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Structure",
+      "ref": "structure_section",
+      "properties": {
+        "description": "Structures dealing with the organization of information.",
+        "fields": [
+          {
+            "title": "Information Mapping",
+            "ref": "structure_informationmapping",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "structure_informationmapping_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "structure_informationmapping_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "structure_informationmapping_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "DITA",
+            "ref": "structure_dita",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "structure_dita_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "structure_dita_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "structure_dita_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Chunking",
+            "ref": "structure_chunking",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "structure_chunking_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "structure_chunking_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "structure_chunking_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Content Management Systems",
+      "ref": "contentmanagementsystems_section",
+      "properties": {
+        "description": "How you manage your documentation.",
+        "fields": [
+          {
+            "title": "Confluence",
+            "ref": "contentmanagementsystems_confluence",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "contentmanagementsystems_confluence_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "contentmanagementsystems_confluence_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "contentmanagementsystems_confluence_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Git",
+            "ref": "contentmanagementsystems_git",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "contentmanagementsystems_git_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "contentmanagementsystems_git_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "contentmanagementsystems_git_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Drupal",
+            "ref": "contentmanagementsystems_drupal",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "contentmanagementsystems_drupal_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "contentmanagementsystems_drupal_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "contentmanagementsystems_drupal_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Wordpress",
+            "ref": "contentmanagementsystems_wordpress",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "contentmanagementsystems_wordpress_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "contentmanagementsystems_wordpress_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "contentmanagementsystems_wordpress_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Joomla",
+            "ref": "contentmanagementsystems_joomla",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "contentmanagementsystems_joomla_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "contentmanagementsystems_joomla_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "contentmanagementsystems_joomla_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Sharepoint",
+            "ref": "contentmanagementsystems_sharepoint",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "contentmanagementsystems_sharepoint_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "contentmanagementsystems_sharepoint_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "contentmanagementsystems_sharepoint_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Wiki",
+            "ref": "contentmanagementsystems_wiki",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "contentmanagementsystems_wiki_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "contentmanagementsystems_wiki_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "contentmanagementsystems_wiki_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Acrolinx",
+            "ref": "contentmanagementsystems_acrolinx",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "contentmanagementsystems_acrolinx_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "contentmanagementsystems_acrolinx_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "contentmanagementsystems_acrolinx_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Stoplight",
+            "ref": "contentmanagementsystems_stoplight",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "contentmanagementsystems_stoplight_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "contentmanagementsystems_stoplight_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "contentmanagementsystems_stoplight_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Quality",
+      "ref": "quality_section",
+      "properties": {
+        "description": "Methods and tools used for quality control of your content.",
+        "fields": [
+          {
+            "title": "Grammarly",
+            "ref": "quality_grammarly",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "quality_grammarly_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "quality_grammarly_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "quality_grammarly_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Spell Check",
+            "ref": "quality_spellcheck",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "quality_spellcheck_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "quality_spellcheck_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "quality_spellcheck_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Writer's Checklist",
+            "ref": "quality_writer'schecklist",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "quality_writer'schecklist_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "quality_writer'schecklist_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "quality_writer'schecklist_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Style Guide",
+            "ref": "quality_styleguide",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "quality_styleguide_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "quality_styleguide_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "quality_styleguide_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Automated Style Adherence Tool",
+            "ref": "quality_automatedstyleadherencetool",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "quality_automatedstyleadherencetool_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "quality_automatedstyleadherencetool_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "quality_automatedstyleadherencetool_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Readability Tool",
+            "ref": "quality_readabilitytool",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "quality_readabilitytool_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "quality_readabilitytool_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "quality_readabilitytool_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Authoring Tools",
+      "ref": "authoringtools_section",
+      "properties": {
+        "description": "Tools for authoring content.",
+        "fields": [
+          {
+            "title": "FrameMaker",
+            "ref": "authoringtools_framemaker",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_framemaker_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_framemaker_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_framemaker_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Flare",
+            "ref": "authoringtools_flare",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_flare_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_flare_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_flare_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Word",
+            "ref": "authoringtools_word",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_word_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_word_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_word_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "InDesign",
+            "ref": "authoringtools_indesign",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_indesign_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_indesign_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_indesign_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Simply XML",
+            "ref": "authoringtools_simplyxml",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_simplyxml_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_simplyxml_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_simplyxml_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "OXygen",
+            "ref": "authoringtools_oxygen",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_oxygen_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_oxygen_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_oxygen_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "easyDITA",
+            "ref": "authoringtools_easydita",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_easydita_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_easydita_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_easydita_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Confluence",
+            "ref": "authoringtools_confluence",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_confluence_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_confluence_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_confluence_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "GitBook",
+            "ref": "authoringtools_gitbook",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_gitbook_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_gitbook_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_gitbook_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Doxygen",
+            "ref": "authoringtools_doxygen",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_doxygen_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_doxygen_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_doxygen_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Drupal",
+            "ref": "authoringtools_drupal",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_drupal_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_drupal_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_drupal_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "XMetaL",
+            "ref": "authoringtools_xmetal",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_xmetal_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_xmetal_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_xmetal_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "RoboHelp",
+            "ref": "authoringtools_robohelp",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_robohelp_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_robohelp_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_robohelp_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Scriptorium",
+            "ref": "authoringtools_scriptorium",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_scriptorium_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_scriptorium_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_scriptorium_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Paligo",
+            "ref": "authoringtools_paligo",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_paligo_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_paligo_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_paligo_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Quark",
+            "ref": "authoringtools_quark",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_quark_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_quark_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_quark_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Gdocs",
+            "ref": "authoringtools_gdocs",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_gdocs_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_gdocs_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_gdocs_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "DITATOO",
+            "ref": "authoringtools_ditatoo",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_ditatoo_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_ditatoo_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_ditatoo_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Doc-tohelp",
+            "ref": "authoringtools_doctohelp",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_doctohelp_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_doctohelp_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_doctohelp_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Readthedocs",
+            "ref": "authoringtools_readthedocs",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_readthedocs_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_readthedocs_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_readthedocs_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Jekyll",
+            "ref": "authoringtools_jekyll",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_jekyll_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_jekyll_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_jekyll_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Sphinx",
+            "ref": "authoringtools_sphinx",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_sphinx_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_sphinx_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_sphinx_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Ixiasoft",
+            "ref": "authoringtools_ixiasoft",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_ixiasoft_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_ixiasoft_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_ixiasoft_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "AuthorIT",
+            "ref": "authoringtools_authorit",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "authoringtools_authorit_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "authoringtools_authorit_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "authoringtools_authorit_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Other Tools",
+      "ref": "othertools_section",
+      "properties": {
+        "description": "For these tools & technologies, just check the ones that you use regularly.",
+        "fields": [
+          {
+            "title": "Other Languages",
+            "ref": "othertools_otherlanguages",
+            "properties": {
+              "randomize": true,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "PHP"
+                },
+                {
+                  "label": "Ruby"
+                },
+                {
+                  "label": "Python"
+                },
+                {
+                  "label": "Go"
+                },
+                {
+                  "label": "Rust"
+                },
+                {
+                  "label": "Java"
+                },
+                {
+                  "label": "C/C++"
+                },
+                {
+                  "label": "Objective-C"
+                },
+                {
+                  "label": "Scala"
+                },
+                {
+                  "label": "Swift"
+                },
+                {
+                  "label": "C#"
+                },
+                {
+                  "label": ".NET"
+                },
+                {
+                  "label": "Haskell"
+                },
+                {
+                  "label": "OCaml"
+                }
+              ],
+              "description": "What other programming languages do you regularly use?"
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Browser APIs",
+            "ref": "othertools_browserapis",
+            "properties": {
+              "randomize": true,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Progressive Web Apps"
+                },
+                {
+                  "label": "WebAssembly"
+                },
+                {
+                  "label": "Service Workers"
+                },
+                {
+                  "label": "WebRTC"
+                },
+                {
+                  "label": "Web Speech API"
+                },
+                {
+                  "label": "WebGL"
+                },
+                {
+                  "label": "Web Audio API"
+                },
+                {
+                  "label": "Web Components"
+                },
+                {
+                  "label": "Web Animations API"
+                },
+                {
+                  "label": "WebVR"
+                }
+              ],
+              "description": "Which browser APIs have you used before?"
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Build Tools",
+            "ref": "othertools_buildtools",
+            "properties": {
+              "randomize": true,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Webpack"
+                },
+                {
+                  "label": "Parcel"
+                },
+                {
+                  "label": "Gulp"
+                },
+                {
+                  "label": "Browserify"
+                },
+                {
+                  "label": "Grunt"
+                },
+                {
+                  "label": "Rollup"
+                },
+                {
+                  "label": "Meteor"
+                }
+              ],
+              "description": "Which build tool(s) are you currently using?"
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Utility Libraries",
+            "ref": "othertools_utilitylibraries",
+            "properties": {
+              "randomize": true,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "jQuery"
+                },
+                {
+                  "label": "Underscore"
+                },
+                {
+                  "label": "Lodash"
+                },
+                {
+                  "label": "Ramda"
+                },
+                {
+                  "label": "Moment"
+                },
+                {
+                  "label": "Date-fns"
+                }
+              ],
+              "description": "Which utility libraries do you regularly use?"
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Text Editors",
+            "ref": "othertools_texteditors",
+            "properties": {
+              "randomize": true,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "VS Code"
+                },
+                {
+                  "label": "Sublime Text"
+                },
+                {
+                  "label": "Atom"
+                },
+                {
+                  "label": "Vim"
+                },
+                {
+                  "label": "Emacs"
+                },
+                {
+                  "label": "Webstorm"
+                }
+              ],
+              "description": "Which text editor(s) do you regularly use?"
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Opinion Questions",
+      "ref": "opinionquestions_section",
+      "properties": {
+        "description": "How do you feel about the state of Technical Communications?",
+        "fields": [
+          {
+            "title": "Technical Communications is moving in the right direction",
+            "ref": "opinionquestions_technicalcommunicationsismovingintherightdirection",
+            "properties": {
+              "steps": 5,
+              "start_at_one": false,
+              "labels": {
+                "left": "Disagree",
+                "center": "Neutral",
+                "right": "Agree"
+              }
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "opinion_scale"
+          },
+          {
+            "title": "Building Docs is overly complex right now",
+            "ref": "opinionquestions_buildingdocsisoverlycomplexrightnow",
+            "properties": {
+              "steps": 5,
+              "start_at_one": false,
+              "labels": {
+                "left": "Disagree",
+                "center": "Neutral",
+                "right": "Agree"
+              }
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "opinion_scale"
+          },
+          {
+            "title": "Technical Communications is under-appreciated",
+            "ref": "opinionquestions_technicalcommunicationsisunderappreciated",
+            "properties": {
+              "steps": 5,
+              "start_at_one": false,
+              "labels": {
+                "left": "Disagree",
+                "center": "Neutral",
+                "right": "Agree"
+              }
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "opinion_scale"
+          },
+          {
+            "title": "I enjoy building Docs",
+            "ref": "opinionquestions_ienjoybuildingdocs",
+            "properties": {
+              "steps": 5,
+              "start_at_one": false,
+              "labels": {
+                "left": "Disagree",
+                "center": "Neutral",
+                "right": "Agree"
+              }
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "opinion_scale"
+          },
+          {
+            "title": "I would like Technical Writing to be my main job",
+            "ref": "opinionquestions_iwouldliketechnicalwritingtobemymainjob",
+            "properties": {
+              "steps": 5,
+              "start_at_one": false,
+              "labels": {
+                "left": "Disagree",
+                "center": "Neutral",
+                "right": "Agree"
+              }
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "opinion_scale"
+          },
+          {
+            "title": "The Technical Communications ecosystem is not changing fast enough",
+            "ref": "opinionquestions_thetechnicalcommunicationsecosystemisnotchangingfastenough",
+            "properties": {
+              "steps": 5,
+              "start_at_one": false,
+              "labels": {
+                "left": "Disagree",
+                "center": "Neutral",
+                "right": "Agree"
+              }
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "opinion_scale"
+          },
+          {
+            "title": "This survey is too damn long!",
+            "ref": "opinionquestions_thissurveyistoodamnlong!",
+            "properties": {
+              "steps": 5,
+              "start_at_one": false,
+              "labels": {
+                "left": "Disagree",
+                "center": "Neutral",
+                "right": "Agree"
+              }
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "opinion_scale"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
       "title": "About You",
       "ref": "aboutyou_section",
       "properties": {
         "description": "Let's get to know the real you.",
         "fields": [
+          {
+            "title": "Job Titles",
+            "ref": "aboutyou_jobtitles",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Technical Writer"
+                },
+                {
+                  "label": "Technical Writing Manager"
+                },
+                {
+                  "label": "Information Developer"
+                },
+                {
+                  "label": "Technical Content Developer"
+                },
+                {
+                  "label": "Learning Products Engineer"
+                },
+                {
+                  "label": "Information Architect"
+                },
+                {
+                  "label": "UX Writer"
+                },
+                {
+                  "label": "Instructional Designer"
+                }
+              ],
+              "description": "What you call yourself."
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Guilds and Organizations",
+            "ref": "aboutyou_guildsandorganizations",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Society for Technical Communication"
+                },
+                {
+                  "label": "Write the Docs"
+                },
+                {
+                  "label": "National Association of Government Communicators"
+                },
+                {
+                  "label": "National Association of Science Writers"
+                },
+                {
+                  "label": "Professional Communiations Society (IEEE)"
+                },
+                {
+                  "label": "Tech Writers Without Borders"
+                }
+              ],
+              "description": "How you network and socialize."
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Industry",
+            "ref": "aboutyou_industry",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Technology"
+                },
+                {
+                  "label": "Higher Education"
+                },
+                {
+                  "label": "Non-profit"
+                },
+                {
+                  "label": "Insurance"
+                },
+                {
+                  "label": "Healthcare"
+                },
+                {
+                  "label": "Finance and Banking"
+                },
+                {
+                  "label": "Automotive"
+                },
+                {
+                  "label": "Government and Military"
+                },
+                {
+                  "label": "Manufacturing"
+                }
+              ],
+              "description": "What part of the global economy you support."
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Department",
+            "ref": "aboutyou_department",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Technical Publications"
+                },
+                {
+                  "label": "Engineering"
+                },
+                {
+                  "label": "Customer Support"
+                },
+                {
+                  "label": "Marketing & Sales"
+                },
+                {
+                  "label": "Information Technology/Information Services"
+                },
+                {
+                  "label": "Research and Development"
+                },
+                {
+                  "label": "Manufacturing"
+                }
+              ],
+              "description": "The department you work for in your organization."
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Department Size",
+            "ref": "aboutyou_departmentsize",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Just me!"
+                },
+                {
+                  "label": "2 - 5"
+                },
+                {
+                  "label": "6 - 20"
+                },
+                {
+                  "label": "21 +"
+                }
+              ],
+              "description": "How big is your specific team."
+            },
+            "type": "multiple_choice"
+          },
           {
             "title": "Years of Experience",
             "ref": "aboutyou_yearsofexperience",
@@ -163,9 +2235,197 @@
                   "label": "20+ years"
                 }
               ],
-              "description": "How long you've been writing CSS."
+              "description": "How long you've been chasing down SMEs."
             },
             "type": "multiple_choice"
+          },
+          {
+            "title": "Company Size",
+            "ref": "aboutyou_companysize",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Just me"
+                },
+                {
+                  "label": "1-5 people"
+                },
+                {
+                  "label": "5-10 people"
+                },
+                {
+                  "label": "10-20 people"
+                },
+                {
+                  "label": "20-50 people"
+                },
+                {
+                  "label": "50-100 people"
+                },
+                {
+                  "label": "100-1000 people"
+                },
+                {
+                  "label": "1000+ people"
+                }
+              ]
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Yearly Salary",
+            "ref": "aboutyou_yearlysalary",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "I work for free :("
+                },
+                {
+                  "label": "$0-$10k"
+                },
+                {
+                  "label": "$10k-$30k"
+                },
+                {
+                  "label": "$30k-$50k"
+                },
+                {
+                  "label": "$50k-$100k"
+                },
+                {
+                  "label": "$100k-$200k"
+                },
+                {
+                  "label": "$200k+"
+                }
+              ],
+              "description": "In USD"
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "How did you find out about this survey?",
+            "ref": "aboutyou_howdidyoufindoutaboutthissurvey?",
+            "properties": {},
+            "validations": {
+              "required": false
+            },
+            "type": "short_text"
+          },
+          {
+            "title": "Your Gender",
+            "ref": "aboutyou_yourgender",
+            "properties": {
+              "randomize": true,
+              "allow_multiple_selection": false,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Female"
+                },
+                {
+                  "label": "Male"
+                },
+                {
+                  "label": "Non-binary/ third gender"
+                },
+                {
+                  "label": "Prefer not to say"
+                }
+              ]
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Your Email",
+            "ref": "aboutyou_youremail",
+            "properties": {
+              "description": "If you'd like to be notified when survey results are available. Your email won't be used for any other purpose."
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "email"
+          },
+          {
+            "title": "Your Country",
+            "ref": "aboutyou_yourcountry",
+            "properties": {},
+            "validations": {
+              "required": false
+            },
+            "type": "short_text"
+          },
+          {
+            "title": "Your City",
+            "ref": "aboutyou_yourcity",
+            "properties": {},
+            "validations": {
+              "required": false
+            },
+            "type": "short_text"
+          },
+          {
+            "title": "Other Comments",
+            "ref": "aboutyou_othercomments",
+            "properties": {
+              "description": "Things we missed, feedback on the survey, your favorite color, etc."
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "long_text"
+          },
+          {
+            "title": "Is this useful?",
+            "ref": "aboutyou_isthisuseful?",
+            "properties": {
+              "randomize": true,
+              "allow_multiple_selection": false,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "label": "Agree"
+                },
+                {
+                  "label": "Disagree"
+                }
+              ],
+              "description": "This survey is useful and asks useful questions that I am interested in seeing statistics about."
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Improving",
+            "ref": "aboutyou_improving",
+            "properties": {
+              "description": "What would you improve about this survey? Please give specific examples of things you would add, new questions you would add, and things you would remove."
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "long_text"
+          },
+          {
+            "title": "Survey confusing?",
+            "ref": "aboutyou_surveyconfusing?",
+            "properties": {
+              "description": "Was there any confusing questions on this survey and how would you improve them?"
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "long_text"
           }
         ]
       },

@@ -266,7 +266,7 @@ fs.writeFile(
     () => {}
 )
 
-console.log('Now the value for ENV TOKEN IS  is:', process.env.TYPE_FORM_API_KEY);
+console.log('Now the value for ENV TOKEN IS  is:', process.env.TYPE_FORM_DOCFORCE_API_KEY);
 
 /*
 
@@ -275,7 +275,7 @@ console.log('Now the value for ENV TOKEN IS  is:', process.env.TYPE_FORM_API_KEY
 */
 if (!isTest) {
     const createFormURL = 'https://api.typeform.com/forms'
-    const token = process.env.TYPE_FORM_API_KEY
+    const token = "HJTVwPL1QjK9vTq1GerfvjNR2BcPdh2eBR5xCnueMETm"
 
     const timestamp = new Date()
 
