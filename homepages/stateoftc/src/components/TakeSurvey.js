@@ -96,9 +96,9 @@ export default class TakeSurvey extends React.Component {
                     </a>
                 )}
                 <p className="TakeSurvey__Note">
-                    Note: to improve results relevance, we keep track of data such as your referrer,
-                    device, browser, and OS.
+                Note that for improving the relevance of our results, we track data like who referred you and what device, browser, and operating system you’re on. We collect no other personal data.
                 </p>
+                <p> THANK YOU FOR YOUR PARTICIPATION! </p>
                 {this.state.showWarning && (
                     <div className="TakeSurvey__MobileWarning">
                         <h3>A Note for Mobile Users</h3>

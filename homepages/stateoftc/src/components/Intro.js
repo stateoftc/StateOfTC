@@ -4,9 +4,9 @@ const Intro = () => (
     <div className="Block Block--intro Intro">
         <h2>Technical Communication is evolving faster than ever.</h2>
 
-        <p>The goal of technical communicators is to make information more useable and accessible to those who need that information.</p>
+        <p>Technical communicators take highly technical content and make it easy to understand.</p>
 
-        <p>We have put this survey together to try and sort out the latest trends and where things can improve. </p>
+        <p>Docforce is curious to know what you see as the latest Tech Comm trends, where you’re at, and how you would improve the industry -- that is the aim of this survey. </p>
 
     </div>
 )
