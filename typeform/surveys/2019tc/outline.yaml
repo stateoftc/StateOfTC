@@ -29,17 +29,27 @@
       - DocBook XML
       - LinuxDoc SGML
       - Troff / Psroff
-      - LaTex
+      - LaTeX
 - title: Information Gathering
-  description: How information is gathered from Subject Matter Experts.
+  description: How information is gathered from subject matter experts other than emails and meetings.
   template: feature 
   questions: 
-      - Meetings
       - Written Specs
-      - Wikis
       - Confluence
-      - Email
-      - Preact
+      - Specifications and product requirements documents (PRDs)
+- title: Communications Tools
+  description: Other than making a call.
+  template: feature 
+  questions:
+      - Slack
+      - Google Hangouts
+      - Texts
+      - Facebook Workplace
+      - Sharepoint/Confluence
+      - WhatsAp?
+      - Gitter
+      - IRC
+      - Cisco Spark
 - title: Structure
   description: Structures dealing with the organization of information.
   template: feature 
@@ -66,11 +76,10 @@
   template: feature 
   questions:
       - Grammarly
-      - Spell Check
       - Writer's Checklist
       - Style Guide
       - Automated Style Adherence Tool
-      - Readability Tool
+      - Readability/Fog Density tool
 
 - title: Authoring Tools
   id: authoringtools
@@ -119,8 +128,6 @@
     - title: I would like Technical Writing to be my main job
       template: opinion
     - title: The Technical Communications ecosystem is not changing fast enough
-      template: opinion
-    - title: This survey is too damn long!
       template: opinion
 
 
@@ -282,6 +289,6 @@
     - title: Improving
       description: What would you improve about this survey? Please give specific examples of things you would add, new questions you would add, and things you would remove.
       template: longtext
-    - title: Survey confusing?
+    - title: Survey?
       description: Was there any confusing questions on this survey and how would you improve them?
       template: longtext

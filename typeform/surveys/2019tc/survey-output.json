@@ -52,7 +52,7 @@
   ],
   "fields": [
     {
-      "title": "Table Of Contents\n\n1. Authoring Language Flavors\n2. Information Gathering\n3. Structure\n4. Content Management Systems\n5. Quality\n6. Authoring Tools\n7. Other Tools - Languages, APIs…",
+      "title": "Table Of Contents\n\n1. Authoring Language Flavors\n2. Information Gathering\n3. Structure\n4. Content Management Systems\n5. Quality\n6. Authoring Tools\n7. Other Tools - Languages, APIs…\n8. Opinion Questions",
       "properties": {
         "hide_marks": true
       },
@@ -266,7 +266,7 @@
             "type": "multiple_choice"
           },
           {
-            "title": "LaTex",
+            "title": "LaTeX",
             "ref": "authoringlanguageflavors_latex",
             "properties": {
               "randomize": false,
@@ -301,36 +301,8 @@
       "title": "Information Gathering",
       "ref": "informationgathering_section",
       "properties": {
-        "description": "How information is gathered from Subject Matter Experts.",
+        "description": "How information is gathered from subject matter experts other than emails and meetings.",
         "fields": [
-          {
-            "title": "Meetings",
-            "ref": "informationgathering_meetings",
-            "properties": {
-              "randomize": false,
-              "allow_multiple_selection": false,
-              "allow_other_choice": false,
-              "vertical_alignment": true,
-              "choices": [
-                {
-                  "ref": "informationgathering_meetings_neverheard",
-                  "label": "🤷 Never heard of it/Not sure what it is"
-                },
-                {
-                  "ref": "informationgathering_meetings_heard",
-                  "label": "✅ Know what it is, but haven't used it"
-                },
-                {
-                  "ref": "informationgathering_meetings_used",
-                  "label": "👍 I've used it"
-                }
-              ]
-            },
-            "validations": {
-              "required": false
-            },
-            "type": "multiple_choice"
-          },
           {
             "title": "Written Specs",
             "ref": "informationgathering_writtenspecs",
@@ -350,34 +322,6 @@
                 },
                 {
                   "ref": "informationgathering_writtenspecs_used",
-                  "label": "👍 I've used it"
-                }
-              ]
-            },
-            "validations": {
-              "required": false
-            },
-            "type": "multiple_choice"
-          },
-          {
-            "title": "Wikis",
-            "ref": "informationgathering_wikis",
-            "properties": {
-              "randomize": false,
-              "allow_multiple_selection": false,
-              "allow_other_choice": false,
-              "vertical_alignment": true,
-              "choices": [
-                {
-                  "ref": "informationgathering_wikis_neverheard",
-                  "label": "🤷 Never heard of it/Not sure what it is"
-                },
-                {
-                  "ref": "informationgathering_wikis_heard",
-                  "label": "✅ Know what it is, but haven't used it"
-                },
-                {
-                  "ref": "informationgathering_wikis_used",
                   "label": "👍 I've used it"
                 }
               ]
@@ -416,8 +360,8 @@
             "type": "multiple_choice"
           },
           {
-            "title": "Email",
-            "ref": "informationgathering_email",
+            "title": "Specifications and product requirements documents (PRDs)",
+            "ref": "informationgathering_specificationsandproductrequirementsdocuments(prds)",
             "properties": {
               "randomize": false,
               "allow_multiple_selection": false,
@@ -425,15 +369,53 @@
               "vertical_alignment": true,
               "choices": [
                 {
-                  "ref": "informationgathering_email_neverheard",
+                  "ref": "informationgathering_specificationsandproductrequirementsdocuments(prds)_neverheard",
                   "label": "🤷 Never heard of it/Not sure what it is"
                 },
                 {
-                  "ref": "informationgathering_email_heard",
+                  "ref": "informationgathering_specificationsandproductrequirementsdocuments(prds)_heard",
                   "label": "✅ Know what it is, but haven't used it"
                 },
                 {
-                  "ref": "informationgathering_email_used",
+                  "ref": "informationgathering_specificationsandproductrequirementsdocuments(prds)_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "title": "Communications Tools",
+      "ref": "communicationstools_section",
+      "properties": {
+        "description": "Other than making a call.",
+        "fields": [
+          {
+            "title": "Slack",
+            "ref": "communicationstools_slack",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "communicationstools_slack_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "communicationstools_slack_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "communicationstools_slack_used",
                   "label": "👍 I've used it"
                 }
               ]
@@ -444,8 +426,8 @@
             "type": "multiple_choice"
           },
           {
-            "title": "Preact",
-            "ref": "informationgathering_preact",
+            "title": "Google Hangouts",
+            "ref": "communicationstools_googlehangouts",
             "properties": {
               "randomize": false,
               "allow_multiple_selection": false,
@@ -453,15 +435,211 @@
               "vertical_alignment": true,
               "choices": [
                 {
-                  "ref": "informationgathering_preact_neverheard",
+                  "ref": "communicationstools_googlehangouts_neverheard",
                   "label": "🤷 Never heard of it/Not sure what it is"
                 },
                 {
-                  "ref": "informationgathering_preact_heard",
+                  "ref": "communicationstools_googlehangouts_heard",
                   "label": "✅ Know what it is, but haven't used it"
                 },
                 {
-                  "ref": "informationgathering_preact_used",
+                  "ref": "communicationstools_googlehangouts_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Texts",
+            "ref": "communicationstools_texts",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "communicationstools_texts_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "communicationstools_texts_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "communicationstools_texts_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Facebook Workplace",
+            "ref": "communicationstools_facebookworkplace",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "communicationstools_facebookworkplace_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "communicationstools_facebookworkplace_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "communicationstools_facebookworkplace_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Sharepoint/Confluence",
+            "ref": "communicationstools_sharepoint/confluence",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "communicationstools_sharepoint/confluence_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "communicationstools_sharepoint/confluence_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "communicationstools_sharepoint/confluence_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "WhatsAp?",
+            "ref": "communicationstools_whatsap?",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "communicationstools_whatsap?_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "communicationstools_whatsap?_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "communicationstools_whatsap?_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Gitter",
+            "ref": "communicationstools_gitter",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "communicationstools_gitter_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "communicationstools_gitter_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "communicationstools_gitter_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "IRC",
+            "ref": "communicationstools_irc",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "communicationstools_irc_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "communicationstools_irc_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "communicationstools_irc_used",
+                  "label": "👍 I've used it"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "title": "Cisco Spark",
+            "ref": "communicationstools_ciscospark",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "ref": "communicationstools_ciscospark_neverheard",
+                  "label": "🤷 Never heard of it/Not sure what it is"
+                },
+                {
+                  "ref": "communicationstools_ciscospark_heard",
+                  "label": "✅ Know what it is, but haven't used it"
+                },
+                {
+                  "ref": "communicationstools_ciscospark_used",
                   "label": "👍 I've used it"
                 }
               ]
@@ -866,34 +1044,6 @@
             "type": "multiple_choice"
           },
           {
-            "title": "Spell Check",
-            "ref": "quality_spellcheck",
-            "properties": {
-              "randomize": false,
-              "allow_multiple_selection": false,
-              "allow_other_choice": false,
-              "vertical_alignment": true,
-              "choices": [
-                {
-                  "ref": "quality_spellcheck_neverheard",
-                  "label": "🤷 Never heard of it/Not sure what it is"
-                },
-                {
-                  "ref": "quality_spellcheck_heard",
-                  "label": "✅ Know what it is, but haven't used it"
-                },
-                {
-                  "ref": "quality_spellcheck_used",
-                  "label": "👍 I've used it"
-                }
-              ]
-            },
-            "validations": {
-              "required": false
-            },
-            "type": "multiple_choice"
-          },
-          {
             "title": "Writer's Checklist",
             "ref": "quality_writer'schecklist",
             "properties": {
@@ -978,8 +1128,8 @@
             "type": "multiple_choice"
           },
           {
-            "title": "Readability Tool",
-            "ref": "quality_readabilitytool",
+            "title": "Readability/Fog Density tool",
+            "ref": "quality_readability/fogdensitytool",
             "properties": {
               "randomize": false,
               "allow_multiple_selection": false,
@@ -987,15 +1137,15 @@
               "vertical_alignment": true,
               "choices": [
                 {
-                  "ref": "quality_readabilitytool_neverheard",
+                  "ref": "quality_readability/fogdensitytool_neverheard",
                   "label": "🤷 Never heard of it/Not sure what it is"
                 },
                 {
-                  "ref": "quality_readabilitytool_heard",
+                  "ref": "quality_readability/fogdensitytool_heard",
                   "label": "✅ Know what it is, but haven't used it"
                 },
                 {
-                  "ref": "quality_readabilitytool_used",
+                  "ref": "quality_readability/fogdensitytool_used",
                   "label": "👍 I've used it"
                 }
               ]
@@ -1798,23 +1948,6 @@
               "required": false
             },
             "type": "opinion_scale"
-          },
-          {
-            "title": "This survey is too damn long!",
-            "ref": "opinionquestions_thissurveyistoodamnlong!",
-            "properties": {
-              "steps": 5,
-              "start_at_one": false,
-              "labels": {
-                "left": "Disagree",
-                "center": "Neutral",
-                "right": "Agree"
-              }
-            },
-            "validations": {
-              "required": false
-            },
-            "type": "opinion_scale"
           }
         ]
       },
@@ -2208,8 +2341,8 @@
             "type": "long_text"
           },
           {
-            "title": "Survey confusing?",
-            "ref": "aboutyou_surveyconfusing?",
+            "title": "Survey?",
+            "ref": "aboutyou_survey?",
             "properties": {
               "description": "Was there any confusing questions on this survey and how would you improve them?"
             },
