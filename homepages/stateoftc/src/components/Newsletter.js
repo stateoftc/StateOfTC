@@ -23,7 +23,7 @@ const CustomForm = () => (
         className={`Block Block--Newsletter Newsletter Newsletter--`}
     ><h3 className="Block__Heading">Stay Tuned</h3>
     <p className="Block__Concent">
-        Leave us your email and we’ll let you know when the results are published.
+    Leave us your email and we’ll let you know when we publish the results.
     </p>
         <SimpleForm onSubmitted={formData => subscribe(formData)} />
         {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
