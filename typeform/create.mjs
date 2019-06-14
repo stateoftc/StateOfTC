@@ -62,6 +62,11 @@ const makeId = s =>
     s
         .replaceAll(' ', '')
         .replaceAll('-', '')
+        .replaceAll('\\?', '')
+        .replaceAll('/', '_')
+        .replaceAll('\\(', '')
+        .replaceAll('\\)', '')
+        .replaceAll('\'', '')
         .toLowerCase()
 
 /*

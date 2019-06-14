@@ -23,7 +23,7 @@
   },
   "welcome_screens": [
     {
-      "title": "Thanks for taking this survey! Together, maybe we'll be able to figure out this Technical Communication thing once and for all!\n\nAlso, we know this survey seems long, but it's mostly the same questions repeated for different frameworks and libraries. Most people only take around *10 minutes* to fill it in.",
+      "title": "Thanks for taking this survey! Together, maybe we'll be able to figure out this Technical Communications thing once and for all!\n\nThis survey takes approximately *10 minutes*. We REALLY appreciate your time!",
       "properties": {
         "show_button": true,
         "button_text": "Let's Get This Started"
@@ -127,7 +127,7 @@
           },
           {
             "title": "DITA HTML/XML",
-            "ref": "authoringlanguageflavors_ditahtml/xml",
+            "ref": "authoringlanguageflavors_ditahtml_xml",
             "properties": {
               "randomize": false,
               "allow_multiple_selection": false,
@@ -135,15 +135,15 @@
               "vertical_alignment": true,
               "choices": [
                 {
-                  "ref": "authoringlanguageflavors_ditahtml/xml_neverheard",
+                  "ref": "authoringlanguageflavors_ditahtml_xml_neverheard",
                   "label": "🤷 Never heard of it/Not sure what it is"
                 },
                 {
-                  "ref": "authoringlanguageflavors_ditahtml/xml_heard",
+                  "ref": "authoringlanguageflavors_ditahtml_xml_heard",
                   "label": "✅ Know what it is, but haven't used it"
                 },
                 {
-                  "ref": "authoringlanguageflavors_ditahtml/xml_used",
+                  "ref": "authoringlanguageflavors_ditahtml_xml_used",
                   "label": "👍 I've used it"
                 }
               ]
@@ -239,7 +239,7 @@
           },
           {
             "title": "Troff / Psroff",
-            "ref": "authoringlanguageflavors_troff/psroff",
+            "ref": "authoringlanguageflavors_troff_psroff",
             "properties": {
               "randomize": false,
               "allow_multiple_selection": false,
@@ -247,15 +247,15 @@
               "vertical_alignment": true,
               "choices": [
                 {
-                  "ref": "authoringlanguageflavors_troff/psroff_neverheard",
+                  "ref": "authoringlanguageflavors_troff_psroff_neverheard",
                   "label": "🤷 Never heard of it/Not sure what it is"
                 },
                 {
-                  "ref": "authoringlanguageflavors_troff/psroff_heard",
+                  "ref": "authoringlanguageflavors_troff_psroff_heard",
                   "label": "✅ Know what it is, but haven't used it"
                 },
                 {
-                  "ref": "authoringlanguageflavors_troff/psroff_used",
+                  "ref": "authoringlanguageflavors_troff_psroff_used",
                   "label": "👍 I've used it"
                 }
               ]
@@ -301,36 +301,8 @@
       "title": "Information Gathering",
       "ref": "informationgathering_section",
       "properties": {
-        "description": "How information is gathered from subject matter experts other than emails and meetings.",
+        "description": "How you get your information from subject matter experts other than from emails and meetings.",
         "fields": [
-          {
-            "title": "Written Specs",
-            "ref": "informationgathering_writtenspecs",
-            "properties": {
-              "randomize": false,
-              "allow_multiple_selection": false,
-              "allow_other_choice": false,
-              "vertical_alignment": true,
-              "choices": [
-                {
-                  "ref": "informationgathering_writtenspecs_neverheard",
-                  "label": "🤷 Never heard of it/Not sure what it is"
-                },
-                {
-                  "ref": "informationgathering_writtenspecs_heard",
-                  "label": "✅ Know what it is, but haven't used it"
-                },
-                {
-                  "ref": "informationgathering_writtenspecs_used",
-                  "label": "👍 I've used it"
-                }
-              ]
-            },
-            "validations": {
-              "required": false
-            },
-            "type": "multiple_choice"
-          },
           {
             "title": "Confluence",
             "ref": "informationgathering_confluence",
@@ -361,7 +333,7 @@
           },
           {
             "title": "Specifications and product requirements documents (PRDs)",
-            "ref": "informationgathering_specificationsandproductrequirementsdocuments(prds)",
+            "ref": "informationgathering_specificationsandproductrequirementsdocumentsprds",
             "properties": {
               "randomize": false,
               "allow_multiple_selection": false,
@@ -369,15 +341,15 @@
               "vertical_alignment": true,
               "choices": [
                 {
-                  "ref": "informationgathering_specificationsandproductrequirementsdocuments(prds)_neverheard",
+                  "ref": "informationgathering_specificationsandproductrequirementsdocumentsprds_neverheard",
                   "label": "🤷 Never heard of it/Not sure what it is"
                 },
                 {
-                  "ref": "informationgathering_specificationsandproductrequirementsdocuments(prds)_heard",
+                  "ref": "informationgathering_specificationsandproductrequirementsdocumentsprds_heard",
                   "label": "✅ Know what it is, but haven't used it"
                 },
                 {
-                  "ref": "informationgathering_specificationsandproductrequirementsdocuments(prds)_used",
+                  "ref": "informationgathering_specificationsandproductrequirementsdocumentsprds_used",
                   "label": "👍 I've used it"
                 }
               ]
@@ -454,8 +426,8 @@
             "type": "multiple_choice"
           },
           {
-            "title": "Texts",
-            "ref": "communicationstools_texts",
+            "title": "Texts (SMS)",
+            "ref": "communicationstools_textssms",
             "properties": {
               "randomize": false,
               "allow_multiple_selection": false,
@@ -463,15 +435,15 @@
               "vertical_alignment": true,
               "choices": [
                 {
-                  "ref": "communicationstools_texts_neverheard",
+                  "ref": "communicationstools_textssms_neverheard",
                   "label": "🤷 Never heard of it/Not sure what it is"
                 },
                 {
-                  "ref": "communicationstools_texts_heard",
+                  "ref": "communicationstools_textssms_heard",
                   "label": "✅ Know what it is, but haven't used it"
                 },
                 {
-                  "ref": "communicationstools_texts_used",
+                  "ref": "communicationstools_textssms_used",
                   "label": "👍 I've used it"
                 }
               ]
@@ -511,7 +483,7 @@
           },
           {
             "title": "Sharepoint/Confluence",
-            "ref": "communicationstools_sharepoint/confluence",
+            "ref": "communicationstools_sharepoint_confluence",
             "properties": {
               "randomize": false,
               "allow_multiple_selection": false,
@@ -519,15 +491,15 @@
               "vertical_alignment": true,
               "choices": [
                 {
-                  "ref": "communicationstools_sharepoint/confluence_neverheard",
+                  "ref": "communicationstools_sharepoint_confluence_neverheard",
                   "label": "🤷 Never heard of it/Not sure what it is"
                 },
                 {
-                  "ref": "communicationstools_sharepoint/confluence_heard",
+                  "ref": "communicationstools_sharepoint_confluence_heard",
                   "label": "✅ Know what it is, but haven't used it"
                 },
                 {
-                  "ref": "communicationstools_sharepoint/confluence_used",
+                  "ref": "communicationstools_sharepoint_confluence_used",
                   "label": "👍 I've used it"
                 }
               ]
@@ -539,7 +511,7 @@
           },
           {
             "title": "WhatsAp?",
-            "ref": "communicationstools_whatsap?",
+            "ref": "communicationstools_whatsap",
             "properties": {
               "randomize": false,
               "allow_multiple_selection": false,
@@ -547,15 +519,15 @@
               "vertical_alignment": true,
               "choices": [
                 {
-                  "ref": "communicationstools_whatsap?_neverheard",
+                  "ref": "communicationstools_whatsap_neverheard",
                   "label": "🤷 Never heard of it/Not sure what it is"
                 },
                 {
-                  "ref": "communicationstools_whatsap?_heard",
+                  "ref": "communicationstools_whatsap_heard",
                   "label": "✅ Know what it is, but haven't used it"
                 },
                 {
-                  "ref": "communicationstools_whatsap?_used",
+                  "ref": "communicationstools_whatsap_used",
                   "label": "👍 I've used it"
                 }
               ]
@@ -657,7 +629,7 @@
       "title": "Structure",
       "ref": "structure_section",
       "properties": {
-        "description": "Structures dealing with the organization of information.",
+        "description": "How you organize your documentation.",
         "fields": [
           {
             "title": "Information Mapping",
@@ -1045,7 +1017,7 @@
           },
           {
             "title": "Writer's Checklist",
-            "ref": "quality_writer'schecklist",
+            "ref": "quality_writerschecklist",
             "properties": {
               "randomize": false,
               "allow_multiple_selection": false,
@@ -1053,15 +1025,15 @@
               "vertical_alignment": true,
               "choices": [
                 {
-                  "ref": "quality_writer'schecklist_neverheard",
+                  "ref": "quality_writerschecklist_neverheard",
                   "label": "🤷 Never heard of it/Not sure what it is"
                 },
                 {
-                  "ref": "quality_writer'schecklist_heard",
+                  "ref": "quality_writerschecklist_heard",
                   "label": "✅ Know what it is, but haven't used it"
                 },
                 {
-                  "ref": "quality_writer'schecklist_used",
+                  "ref": "quality_writerschecklist_used",
                   "label": "👍 I've used it"
                 }
               ]
@@ -1129,7 +1101,7 @@
           },
           {
             "title": "Readability/Fog Density tool",
-            "ref": "quality_readability/fogdensitytool",
+            "ref": "quality_readability_fogdensitytool",
             "properties": {
               "randomize": false,
               "allow_multiple_selection": false,
@@ -1137,15 +1109,15 @@
               "vertical_alignment": true,
               "choices": [
                 {
-                  "ref": "quality_readability/fogdensitytool_neverheard",
+                  "ref": "quality_readability_fogdensitytool_neverheard",
                   "label": "🤷 Never heard of it/Not sure what it is"
                 },
                 {
-                  "ref": "quality_readability/fogdensitytool_heard",
+                  "ref": "quality_readability_fogdensitytool_heard",
                   "label": "✅ Know what it is, but haven't used it"
                 },
                 {
-                  "ref": "quality_readability/fogdensitytool_used",
+                  "ref": "quality_readability_fogdensitytool_used",
                   "label": "👍 I've used it"
                 }
               ]
@@ -1670,7 +1642,7 @@
             "type": "multiple_choice"
           },
           {
-            "title": "Doc-tohelp",
+            "title": "Doc-to-help",
             "ref": "authoringtools_doctohelp",
             "properties": {
               "randomize": false,
@@ -1698,7 +1670,7 @@
             "type": "multiple_choice"
           },
           {
-            "title": "Readthedocs",
+            "title": "Read the docs",
             "ref": "authoringtools_readthedocs",
             "properties": {
               "randomize": false,
@@ -1782,7 +1754,7 @@
             "type": "multiple_choice"
           },
           {
-            "title": "Ixiasoft",
+            "title": "IXIASOFT",
             "ref": "authoringtools_ixiasoft",
             "properties": {
               "randomize": false,
@@ -1865,8 +1837,8 @@
             "type": "opinion_scale"
           },
           {
-            "title": "Building Docs is overly complex right now",
-            "ref": "opinionquestions_buildingdocsisoverlycomplexrightnow",
+            "title": "Building docs is overly complex",
+            "ref": "opinionquestions_buildingdocsisoverlycomplex",
             "properties": {
               "steps": 5,
               "start_at_one": false,
@@ -1899,7 +1871,7 @@
             "type": "opinion_scale"
           },
           {
-            "title": "I enjoy building Docs",
+            "title": "I enjoy building docs",
             "ref": "opinionquestions_ienjoybuildingdocs",
             "properties": {
               "steps": 5,
@@ -2127,7 +2099,7 @@
                   "label": "21 +"
                 }
               ],
-              "description": "How big is your specific team."
+              "description": "How many people on your team."
             },
             "type": "multiple_choice"
           },
@@ -2237,7 +2209,7 @@
           },
           {
             "title": "How did you find out about this survey?",
-            "ref": "aboutyou_howdidyoufindoutaboutthissurvey?",
+            "ref": "aboutyou_howdidyoufindoutaboutthissurvey",
             "properties": {},
             "validations": {
               "required": false
@@ -2311,7 +2283,7 @@
           },
           {
             "title": "Is this useful?",
-            "ref": "aboutyou_isthisuseful?",
+            "ref": "aboutyou_isthisuseful",
             "properties": {
               "randomize": true,
               "allow_multiple_selection": false,
@@ -2330,10 +2302,10 @@
             "type": "multiple_choice"
           },
           {
-            "title": "Improving",
-            "ref": "aboutyou_improving",
+            "title": "Improvement",
+            "ref": "aboutyou_improvement",
             "properties": {
-              "description": "What would you improve about this survey? Please give specific examples of things you would add, new questions you would add, and things you would remove."
+              "description": "What would you improve about this survey? Please give specific examples of things you would add, questions you would add, and things you would remove."
             },
             "validations": {
               "required": false
@@ -2342,9 +2314,9 @@
           },
           {
             "title": "Survey?",
-            "ref": "aboutyou_survey?",
+            "ref": "aboutyou_survey",
             "properties": {
-              "description": "Was there any confusing questions on this survey and how would you improve them?"
+              "description": "Were there any confusing questions on this survey and how would you improve them?"
             },
             "validations": {
               "required": false

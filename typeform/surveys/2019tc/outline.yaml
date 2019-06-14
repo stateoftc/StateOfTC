@@ -31,10 +31,9 @@
       - Troff / Psroff
       - LaTeX
 - title: Information Gathering
-  description: How information is gathered from subject matter experts other than emails and meetings.
+  description: How you get your information from subject matter experts other than from emails and meetings.
   template: feature 
   questions: 
-      - Written Specs
       - Confluence
       - Specifications and product requirements documents (PRDs)
 - title: Communications Tools
@@ -43,7 +42,7 @@
   questions:
       - Slack
       - Google Hangouts
-      - Texts
+      - Texts (SMS)
       - Facebook Workplace
       - Sharepoint/Confluence
       - WhatsAp?
@@ -51,7 +50,7 @@
       - IRC
       - Cisco Spark
 - title: Structure
-  description: Structures dealing with the organization of information.
+  description: How you organize your documentation.
   template: feature 
   questions:
       - Information Mapping
@@ -104,11 +103,11 @@
       - Quark
       - Gdocs
       - DITATOO
-      - Doc-tohelp
-      - Readthedocs
+      - Doc-to-help
+      - Read the docs
       - Jekyll
       - Sphinx
-      - Ixiasoft
+      - IXIASOFT
       - AuthorIT
 
 
@@ -119,11 +118,11 @@
   questions:
     - title: Technical Communications is moving in the right direction
       template: opinion
-    - title: Building Docs is overly complex right now
+    - title: Building docs is overly complex
       template: opinion
     - title: Technical Communications is under-appreciated
       template: opinion
-    - title: I enjoy building Docs
+    - title: I enjoy building docs
       template: opinion
     - title: I would like Technical Writing to be my main job
       template: opinion
@@ -195,7 +194,7 @@
         - Research and Development
         - Manufacturing
     - title: Department Size
-      description: How big is your specific team.
+      description: How many people on your team.
       template: multiple
       allowmultiple: false
       allowother: false
@@ -286,9 +285,9 @@
       options: 
         - Agree
         - Disagree
-    - title: Improving
-      description: What would you improve about this survey? Please give specific examples of things you would add, new questions you would add, and things you would remove.
+    - title: Improvement
+      description: What would you improve about this survey? Please give specific examples of things you would add, questions you would add, and things you would remove.
       template: longtext
     - title: Survey?
-      description: Was there any confusing questions on this survey and how would you improve them?
+      description: Were there any confusing questions on this survey and how would you improve them?
       template: longtext
