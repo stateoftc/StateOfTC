@@ -9,7 +9,7 @@
 - template: statictext
   id: features_intro
   title: >
-      "For each of the following Technical Communication feature, please pick one of the following options:
+      "For each of the following Technical Communication features, please pick one of the available options:
 
       \n- 🤷 You've never heard about it, or are not sure what it is
       \n- ✅ You've heard about it but *haven't* used it

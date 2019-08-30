@@ -67,7 +67,7 @@ export default class TakeSurvey extends React.Component {
     }
 
     getSurveyUrl = () => {
-        return `https://docforce.typeform.com/to/wlTwFM?browser=${this.state.browser}&version=${
+        return `https://docforce.typeform.com/to/zZo9nB?browser=${this.state.browser}&version=${
         // return `http://stateofjs.typeform.com/to/TxDuh6?browser=${this.state.browser}&version=${
             this.state.version
         }&os=${this.state.os}&referrer=${this.state.referrer}&device=${this.state.device}&source=${this.state.source}`
@@ -96,7 +96,7 @@ export default class TakeSurvey extends React.Component {
                     </a>
                 )}
                 <p className="TakeSurvey__Note">
-                Note that for improving the relevance of our results, we track data like who referred you and what device, browser, and operating system you’re on. We collect no other personal data.
+                Note: To improve the relevance of our results, we track data like who referred you and what device, browser, and operating system you’re on. We don't collect any personal data.
                 </p>
                 <p> THANK YOU FOR YOUR PARTICIPATION! </p>
                 {this.state.showWarning && (

@@ -18,7 +18,9 @@ settings:
       href: https://images.typeform.com/images/M5XY3mC6KDbS
 welcome_screens:
 - title: |-
-    Thanks for taking this survey! Together, maybe we'll be able to figure out this Technical Communications thing once and for all!
+    Thanks for taking this survey. 
+    
+    Together, maybe we can figure out this Technical Communications thing once and for all!
 
     This survey takes approximately *10 minutes*. We REALLY appreciate your time!
   properties:

@@ -23,7 +23,7 @@
   },
   "welcome_screens": [
     {
-      "title": "Thanks for taking this survey! Together, maybe we'll be able to figure out this Technical Communications thing once and for all!\n\nThis survey takes approximately *10 minutes*. We REALLY appreciate your time!",
+      "title": "Thanks for taking this survey. \n\nTogether, maybe we can figure out this Technical Communications thing once and for all!\n\nThis survey takes approximately *10 minutes*. We REALLY appreciate your time!",
       "properties": {
         "show_button": true,
         "button_text": "Let's Get This Started"
@@ -59,7 +59,7 @@
       "type": "statement"
     },
     {
-      "title": "For each of the following Technical Communication feature, please pick one of the following options:\n\n- 🤷 You've never heard about it, or are not sure what it is \n- ✅ You've heard about it but *haven't* used it \n- 👍 You've used it in a project",
+      "title": "For each of the following Technical Communication features, please pick one of the available options:\n\n- 🤷 You've never heard about it, or are not sure what it is \n- ✅ You've heard about it but *haven't* used it \n- 👍 You've used it in a project",
       "ref": "features_intro",
       "type": "statement"
     },
